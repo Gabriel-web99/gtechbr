@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>G-Tech</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            font-size: 16px;
+            background-color: white;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        #colunaEsquerda {
+            float: left;
+            width: 20%; /* Defina a largura desejada para a coluna esquerda */
+            padding-right: 1em;
+            background-color: green;
+            height: 100vh;
+        }
+
+        #colunaDireita {
+            margin-left: 20%; /* Defina a largura da coluna esquerda + 1% de folga */
+            padding-left: 1em;
+        }
+
+        .conteudo {
+            padding: 20px;
+        }
+
+        .logo {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .menu-opcoes {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        .menu-opcoes li {
+            margin-bottom: 10px;
+        }
+
+        .menu-opcoes li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        function redirecionarParaPaginaInicial() {
+            window.location.href = "https://www.twitch.tv/casimito";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>G-tech</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="redirecionarParaPaginaInicial()">Página Inicial</a></li>
+                <li><a href="https://photos.google.com/partner/AF1QipMxyxm1ps-I5_33FXdBVnDsqoeo/photo/AF1QipNDaQ5AUBBBVLawJfkOPWZ8d-v_fOODxPQtI09f" target="_blank">Moça Linda</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="colunaEsquerda">
+        <img src="file:///C:/Users/gabri/OneDrive/Documentos/GTech/g-tech.png" alt="Logo G-Tech" class="logo">
+        <ul class="menu-opcoes">
+            <li><a href="#">Opção 1</a></li>
+            <li><a href="#">Opção 2</a></li>
+            <li><a href="#">Opção 3</a></li>
+        </ul>
+    </div>
+
+    <div id="colunaDireita">
+        <div class="conteudo">
+            <main>
+                <section>
+                    <h2>Bem-vindo ao Meu Site</h2>
+                    <p>Este é um exemplo básico de um site.</p>
+                </section>
+            </main>
+
+            <footer>
+                <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
